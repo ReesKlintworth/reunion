@@ -4,7 +4,8 @@
   "description": "NLS Reunion",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d --watch",
+    "dev": "webpack -d",
+    "dev-watch": "webpack -d --watch",
     "build": "webpack -p"
   },
   "repository": {
@@ -28,6 +29,7 @@
     "http-server": "^0.9.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-router": "^2.8.1",
     "webpack": "^1.13.2"
   }
 }
