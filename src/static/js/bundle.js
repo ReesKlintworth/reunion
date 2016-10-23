@@ -27970,7 +27970,7 @@
   \*************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -27981,8 +27981,6 @@
 	var _react = __webpack_require__(/*! react */ 1);
 	
 	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactRouter = __webpack_require__(/*! react-router */ 173);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -28002,19 +28000,15 @@
 	  }
 	
 	  _createClass(IndexPage, [{
-	    key: 'render',
+	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
-	        { className: 'home' },
+	        "div",
+	        { className: "home" },
 	        _react2.default.createElement(
-	          _reactRouter.Link,
-	          { to: 'notfound' },
-	          _react2.default.createElement(
-	            'p',
-	            null,
-	            'Home page'
-	          )
+	          "p",
+	          null,
+	          "Home page"
 	        )
 	      );
 	    }
